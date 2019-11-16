@@ -1,0 +1,1 @@
+create (b:User),(c:User {role:'special'})- [r:ACCESS {role:'viewer'}]->( a:Domain) return a,b,c
